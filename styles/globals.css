@@ -197,17 +197,17 @@ padding-top: 60px;
 
 .iimg {
   /* background-image: url(https://ik.imagekit.io/alienfrens/app-assets/background-market.jpg); */
-  opacity: 0.2;
+  /* opacity: 1;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   top: 83px;
   z-index: -39;
   position: absolute;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-repeat: no-repeat;
-  height: 10rem;
+  /* background-repeat: no-repeat; */
+  /* height: 23rem; */
 }
 
 .nftBoxGrid1 {

@@ -407,7 +407,8 @@ export default function Listings() {
                 <>
                   <img
                     className="iimg"
-                    src="https://ik.imagekit.io/alienfrens/app-assets/background-market.jpg"
+                    src="https://gateway.pinata.cloud/ipfs/QmUQLuLudnP97okmk6ZRb2egfPSJNoheZDqvLcvApepNzm?_gl=1*1wj90be*_ga*MTAxNzI1NTk2Ny4xNjc2MDU4NDU2*_ga_5RMPXG14TE*MTY3NjA1ODQ1Ny4xLjEuMTY3NjA1ODg0OC41My4wLjA."
+                    // https://ik.imagekit.io/alienfrens/app-assets/background-market.jpg
                     alt=""
                   />
                   <h3 className="frs">Ape Club Marketplace</h3>
