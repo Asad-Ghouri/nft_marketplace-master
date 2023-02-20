@@ -607,7 +607,7 @@ export default function Listings() {
               {/* <Lorem count={2} /> */}
               <div className="modalbox">
                 <Select placeholder="Enable drop mode" className="yellowdd">
-                  <option value="Price Low to High">UFO stays Drop</option>
+                  {/* <option value="Price Low to High">UFO stays Drop</option>
                   <option value="Price High to Low">Trick or Treat Bag</option>
                   <option value="Stock Low to High">
                     Frens Radio Whitelist
@@ -651,7 +651,7 @@ export default function Listings() {
                   </option>
                   <option value="Sale Ends Soon">
                     Anniversary Restock - Blockchain for Babies
-                  </option>
+                  </option> */}
                 </Select>
               </div>
 

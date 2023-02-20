@@ -55,7 +55,7 @@ export default function Index() {
   const connectWithCoinbaseWallet = useCoinbaseWallet();
   const disconnectWallet = useDisconnect();
   function homeClick() {
-    router.push("/listings");
+    router.push("/Marketplace");
   }
   function uploadClick() {
     router.push("/upload");
