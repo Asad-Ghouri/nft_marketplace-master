@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/preSale": "pages/preSale.js",
-  "/Marketplace": "pages/Marketplace.js"
+  "/Marketplace": "pages/Marketplace.js",
+  "/preSale": "pages/preSale.js"
 }

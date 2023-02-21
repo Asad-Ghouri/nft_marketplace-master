@@ -44,6 +44,7 @@ import filterImg from "../public/icons/filter.png";
 import { Select } from "@chakra-ui/react";
 
 import { useRouter } from "next/router";
+import preSale from "./preSale";
 
 export default function Listings() {
   const { contract: marketplace } = useContract(MARKETPLACE_ADDRESS);
@@ -86,6 +87,11 @@ export default function Listings() {
     router.push("/StakingMutant");
   }
 
+  function raffel() {
+    setchangeColor(6);
+    router.push("/Raffel");
+  }
+
   function swapcoin() {
     setchangeColor(3);
     router.push("/SwapCoin");
@@ -97,7 +103,7 @@ export default function Listings() {
   }
 
   function presale() {
-    setchangeColor(5);
+    setchangeColor(7);
     router.push("/preSale");
   }
 
@@ -242,7 +248,7 @@ export default function Listings() {
               </li> */}
               <li className="p-1 ucc">
                 <a
-                  onClick={() => setchangeColor(6)}
+                  onClick={raffel}
                   className={
                     changeColor != 6
                       ? "flex items-center asa justify-between py-2 px-3 rounded-md cursor-pointer transition hover:bg-opacity-25 hover:bg-coal-light"
@@ -250,6 +256,26 @@ export default function Listings() {
                   }
                 >
                   <span className="font-hand text-xl fg fgg1">Raffle</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="-mr-1 w-5 h-5 fill-current transition icon sprite-icons"
+                    style={{ display: "none" }}
+                  >
+                    <use href="/_nuxt/90542362d159cf028adfa51646312af4.svg#i-chevron-right"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li className="p-1 ucc">
+                <a
+                  onClick={presale}
+                  className={
+                    changeColor != 7
+                      ? "flex items-center asa justify-between py-2 px-3 rounded-md cursor-pointer transition hover:bg-opacity-25 hover:bg-coal-light"
+                      : "flex items-center asa justify-between py-2 px-3 rounded-md cursor-pointer transition hover:bg-opacity-25 hover:bg-coal-light text-xenos-500"
+                  }
+                >
+                  <span className="font-hand text-xl fg fgg1">PreSale</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="-mr-1 w-5 h-5 fill-current transition icon sprite-icons"

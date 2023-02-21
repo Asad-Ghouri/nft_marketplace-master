@@ -78,6 +78,11 @@ export default function ListingPage() {
   }
 
 
+  function raffel() {
+    setchangeColor(6);
+    router.push("/Raffel");
+  }
+
   // function Stake() {
   //   setchangeColor(2);
   //   // router.push("/staked");
@@ -362,7 +367,7 @@ export default function ListingPage() {
 
                 <li className="p-1 ucc">
                   <a
-                    onClick={() => setchangeColor(6)}
+                    onClick={raffel}
                     className={
                       changeColor != 6
                         ? "flex items-center asa justify-between py-2 px-3 rounded-md cursor-pointer transition hover:bg-opacity-25 hover:bg-coal-light"
