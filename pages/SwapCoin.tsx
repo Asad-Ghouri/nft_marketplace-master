@@ -2,8 +2,6 @@ import React from "react";
 
 import Link from 'next/link'
 
-import { setup1inchWidget } from '@1inch/embedded-widget';
-
 import styles from "../styles/Home.module.css";
 
 export default function Swaping() {

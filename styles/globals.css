@@ -1047,10 +1047,20 @@ ul {
 
 }
 
+.presaleIframe , .raffelIframe{
+  padding-top: 5rem!important;
+}
+
 @media (max-width: 850px) {
   /* .bsbs{
     display: none;
   } */
+  .raffelIframe{
+    height: 738px!important;
+  }
+  .presaleIframe{
+    height: 1200px!important;
+  }
   .css-1q136yz {
     height: 17vh;
   }
